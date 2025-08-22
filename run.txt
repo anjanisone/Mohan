@@ -1,0 +1,6 @@
+Steps:
+1. Configure your aws with the credentials. Use `aws configure`
+2. run `pip install -r requirements.txt --ignore-installed`
+3. run `uvicorn main:app --host 0.0.0.0 --port 6642`
+
+Open Browser and got to `localhost:6642`
